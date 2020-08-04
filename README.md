@@ -18,7 +18,7 @@
 <tbody>
 <tr>
 <td align="center">N. Virginia (us-east-1)</td>
-<td align="left"><a  href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?stackName=amazon-textract-demo&amp;templateURL=https://napkin-share.s3.ap-northeast-2.amazonaws.com/cloudformation/amazon-textract.yml&amp;" target="_blank"  class="btn btn-default">
+<td align="left"><a  href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?stackName=amazon-textract-demo&amp;templateURL=https://napkin-share.s3.ap-northeast-2.amazonaws.com/cloudformation/amazon-textract-demo.yml&amp;" target="_blank"  class="btn btn-default">
   <i class="fas fa-play"></i>
 Deploy to AWS N. Virginia
 </a>
