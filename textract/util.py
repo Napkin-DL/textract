@@ -252,7 +252,7 @@ def get_sync_analyze_document(image, response):
 def get_page(blocks_list):
     page = ""
     blocks = [x for x in blocks_list if x['BlockType'] == "LINE"]
-#     blocks.extend([x for x in blocks_list if x['BlockType'] == "WORD"])
+    blocks.extend([x for x in blocks_list if x['BlockType'] == "WORD"])
     for block in blocks:
         page += " " + block['Text']
     print(page)
