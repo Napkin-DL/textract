@@ -134,7 +134,6 @@ SageMaker Notebook을 전체 실행하는 방법은 기존 Jupyter Notebook과 �
 <img src='./readme_images/3_1_nb_revised.png' width='900' height='80'>
 
 <h1 id="head1">Limits</h1>
-## Limits
 <p>- 최대 문서 이미지 (JPEG / PNG) 크기는 10MB입니다.</p>
 <p>- 최대 PDF 파일 크기는 500MB입니다.</p>
 <p>- PDF 파일의 최대 페이지 수는 3000입니다.</p>
