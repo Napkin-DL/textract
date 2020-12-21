@@ -126,8 +126,6 @@ SageMaker Notebook을 전체 실행하는 방법은 기존 Jupyter Notebook과 �
 
 <p><code>2_Practice_Async.ipynb</code>의 4번째 cell을 위 그림과 같이 추가합니다. RoleArn에는 앞서 CloudFormation의 output 탭에서 복사해 놓은 <code>SNSTopicPublishRoleArn</code>값을 입력합니다. test_document는 앞서 설명드린 S3 bucket에 이미 upload한 파일들을 추가하면 됩니다. test_document는 list 타입으로 구분자(<strong>,</strong>)로 복수의 파일들을 추가할 수 있습니다. PDF외 PNG, JPG/JPEG 모두 가능합니다.</p>
 
-<p><code>2_Practice_Async.ipynb</code>의 실행을 완료한 후 <code>3_Practice_Async_Result.ipynb</code>을 수행합니다.</p>
-
 <img src='./readme_images/3_nb_revised.png' width='900' height='250'>
 <p><code>2_Practice_Async.ipynb</code>에서 분석한 문서가 복수 개일 경우에는 각 문서의 번호를 변경하면서 분석 결과를 확인할 수 있습니다. 1개일 경우에는 1로 하면 됩니다.</p>
 <p>또한, 문서 내 복수 개의 페이지일 경우에는 아래 그림처럼 page_num를 변경합니다. 현재는 페이지별로 1장 씩 결과를 확인할 수 있도록 구성하였습니다. 페이지를 변경한 후 전체 수행하거나 수정된 위치 다음부터 변경을 하면서 결과를 확인할 수 있습니다.</p>
