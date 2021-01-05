@@ -524,7 +524,7 @@ def GetResultsDocumentAnalysis(jobId):
     return blocks
 
 
-def get_pdf_analyze_document(document, blocks):
+def get_pdf_analyze_document(image, blocks):
     width, height = image.size
     draw = ImageDraw.Draw(image)
     print('Detected Document Text')
