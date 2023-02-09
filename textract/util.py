@@ -556,10 +556,10 @@ def get_pdf_analyze_document(image, blocks):
                     draw, block['Geometry']['BoundingBox'], width, height, 'blue')
 
             # uncomment to draw polygon for all Blocks
-            # points=[]
-            # for polygon in block['Geometry']['Polygon']:
-            #    points.append((width * polygon['X'], height * polygon['Y']))
-            # draw.polygon((points), outline='blue')
+            points=[]
+            for polygon in block['Geometry']['Polygon']:
+               points.append((width * polygon['X'], height * polygon['Y']))
+            draw.polygon((points), outline='blue')
     return image, blocks
 
 
